@@ -1,0 +1,181 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 53px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted #000;
+    padding-right: 35px;
+}
+
+.subheader {
+    padding: 17px;
+    min-height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    max-width: 380px;
+    display: block;
+}
+
+.subheader .subheader_official {
+    opacity: .5;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .subheaderCall {
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.subheader .subheaderPhone {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    text-align: right;
+}
+
+button {
+    width: 172px;
+    height: 46px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    text-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.partners {
+    background: url(../img/background/uber_bg.png) center center/cover no-repeat;
+    min-height: 799px;
+}
+
+.partners .company {
+    margin-top: 65px;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.partners .invitation {
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.partners .partners_descr {
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.partners .send_request {
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 259px;
+    height: 63px;
+    font-size: 18px;
+}
+
+.reasons {
+    padding: 71px 0 65px 0;
+}
+
+.label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
